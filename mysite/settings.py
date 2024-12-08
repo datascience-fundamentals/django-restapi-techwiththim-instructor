@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "api",
+    # this app is required to add in order django rest api to work well
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
